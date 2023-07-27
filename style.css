@@ -3,37 +3,101 @@ main {
     max-width: 90ch;
     padding: 2ch;
     margin: auto;
-    background: peru;
+}
+
+.banner {
+    max-width: 90ch;
+    padding: 2ch 0 0 2ch;
+    margin: auto;
 }
 
 body {
-  font-size: 100%;
+  font-size: 110%;
+  font-family: "gelica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5em;
+
 }
+
+a:link {
+  color:#fc803c;
+}
+
+a:visited {
+  color:black;
+}
+
 
 h1 {
   color: green;
-  font-size: 10vw;
+  font-size: 3em;
+  font-family: "filicudi-solid", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1em;
+}
+
+#subheader {
+   font-size: 2em;
+}
+
+ul {
+
 }
 
 .post {
 width: 100%;
 border-style: solid;
-border-radius: 35px;
-color: red;
+border-width: 2px;
+border-color: #a2be46;
+border-radius: 10px;
 margin-bottom: 3%;
+padding-bottom: 3%;
 background: white;
 }
 
 h2 {
   font-size: 1.5em;
-  width: 50%;
-  color: plum;
-  margin: 0.5em 0 0 0.5em;
+  width: 80%;
+  color: #fc803c;
+  padding: 0 3%;
+
+  font-family: "filicudi-solid", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.2em;
+  padding: 0 3%;
+  font-family: "gelica", sans-serif;
 }
 
 p {
-  font-size: 0.9em;
-  color: darkred;
   padding: 0 3%;
   margin-bottom: 1%;
+}
+
+img {
+  width: 100%;
+}
+
+.post-image {
+  margin: 3%;
+  width: 80%;
+}
+
+.image-credit {
+  font-size: small;
+}
+
+.footer {
+background: rgb(162,190,70);
+background: linear-gradient(0deg, rgba(162,190,70,1) 10%, rgba(255,240,42,0) 100%); 
+  padding: 5ch;
+}
+
+.footer h2 {
+  color: green;
 }
